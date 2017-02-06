@@ -9,7 +9,7 @@ int main() {
 	if(input == '2')
 		cout << "Wake me up inside!" << endl;
 	if (input == '3')
-		cout << "Wake me up when its all over" << endl;
+		cout << "Wake me up when its all over!" << endl;
 
 
 
