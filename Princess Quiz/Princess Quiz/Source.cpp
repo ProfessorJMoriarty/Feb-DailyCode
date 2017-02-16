@@ -3,6 +3,7 @@ using namespace std;
 int main() {
 	char input;
 	cout << "What basketball player are you?!" << endl;
+     
 
 	int Lebron = 0;
 	int Curry = 0;
@@ -12,14 +13,14 @@ int main() {
 	cout << "What is your favorite basketball shot? (Pnr=P Dunk=D ThreePoint=T Fadeaway=F)" << endl;
 	cin >> input;
 
-	if (input == 'P');
-	Paul = Paul + 1;
-	if (input == 'D');
-	Lebron = Lebron + 1;
+	if (input == 'P');  
+	 Paul = Paul + 1;
+	 if (input == 'D');
+	 Lebron = Lebron + 1;
 	if (input == 'T');
-	Curry = Curry + 1;
+	 Curry = Curry + 1;
 	if (input == 'F');
-	Mamba = Mamba + 1;
+	 Mamba = Mamba + 1;
 
 
 	cout << "What is your favorite basketball Position? (PointGuard=P ShootingGuard=S SmallForward=S Center=C)" << endl;
@@ -108,7 +109,7 @@ int main() {
 	if (input == 'R');
 	Mamba = Mamba + 1;
 
-	cout << "WHat team do you prefer? (Lakers=L Clippers=C  Warriors=W  Heat=H)" << endl;
+	cout << "What team do you prefer? (Lakers=L Clippers=C  Warriors=W  Heat=H)" << endl;
 	cin >> input;
 
 	if (input == 'C');
@@ -129,12 +130,12 @@ int main() {
 	Lebron = Lebron + 1;
 	if (input == '30');
 	Curry = Curry + 1;
-	if (input == '23');
+	if  (input == '23');
 	Mamba = Mamba + 1;
 
 	if ((Paul > Lebron) && (Paul > Curry) && (Paul > Mamba));
 	cout << "YOU ARE PAUL" << endl;
-	if ((Lebron > Paul) && (Lebron > Curry) && (Lebron > Mamba));
+	 if  ((Lebron > Paul) && (Lebron > Curry) && (Lebron > Mamba));
 	cout << "YOU ARE LEBRON" << endl;
 	if ((Curry > Lebron) && (Curry > Paul) && (Curry > Mamba));
 	cout << "YOU ARE CURRY" << endl;
