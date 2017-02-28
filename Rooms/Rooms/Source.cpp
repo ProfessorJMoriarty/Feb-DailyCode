@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
-int main() {
+int main(){
 	char input = 'a';
 	int room = 1;
-
+	
 	while (input != 'q') {
 		switch (room) {
 		case 1:
