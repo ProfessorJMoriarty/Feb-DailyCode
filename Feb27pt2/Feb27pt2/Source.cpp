@@ -1,12 +1,20 @@
 #include<ctime>
 #include<cstdlib>
-int main(){
-	void snacks();
+int health = 1000;
+
+void snacks();
+int main() {
+
+		void snacks();
 	srand(time(NULL));
-	while (true) {
+	while (health >= 0;) {
 		snacks();
 		system("pause");
+		cout << "Your health is now" << health << endl;
 	}
+
+	cout << "YOU ARE DEAD" << endl;
+}
 	
 	
 	void snacks() {
