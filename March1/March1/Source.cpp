@@ -1,18 +1,18 @@
 #include <iostream>
 #include <Windows.h>
 using namespace std;
-void jukebox(int input);
+void jukebox(int input);//declaration
 int input;
 
 int main() {
 	int choice;
 	cout << "what song do you want 1 2 or 3?" << endl;
 	cin >> choice;
-	jukebox(choice);
+	jukebox(choice);//call
 	
 	
 }
-void jukebox(int input) {
+void jukebox(int input) {//definition
 	if (input == 1) {
 		PlaySound(TEXT("Bar1.wav"), NULL, SND_ASYNC);
 		cout << "playing song 1!" << endl;
